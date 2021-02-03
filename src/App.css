@@ -1,1 +1,96 @@
-/* Other rules */
+/* GLOBAL RULES */
+.App {
+  font-family: "Montserrat", sans-serif;
+}
+/*------------------------------------------------------*/
+/*------------------------Header-----------------------*/
+/*------------------------------------------------------*/
+.header {
+  height: 120px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 50px;
+  border-bottom: #e5e5e5 1px solid;
+}
+.header > i {
+  color: #5c48d3;
+  margin-right: 10px;
+}
+.header h1 {
+  font-size: 42px;
+  line-height: 59px;
+  font-weight: 400;
+}
+
+/*------------------------------------------------------*/
+/*-----------------------SECTION-----------------------*/
+/*------------------------------------------------------*/
+
+.section {
+  height: 200px;
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.section .operations {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section .operations .operation-button {
+  width: 50px;
+  height: 50px;
+}
+.section .operations button {
+  background-color: Transparent;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  display: flex;
+  justify-content: space-between;
+}
+.section .operations .operation-button button:first-child {
+  margin-right: 10px;
+}
+
+.section .reset-button button {
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #5c48d3;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  border: none;
+  width: 120px;
+  height: 40px;
+  font-size: 18px;
+}
+.section .operations .counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5c48d3;
+  color: #fff;
+  font-size: 40px;
+  border-radius: 5px;
+  width: 60px;
+  height: 60px;
+}
+
+/*------------------------------------------------------*/
+/*-------------------------Footer-----------------------*/
+/*------------------------------------------------------*/
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 300px;
+  height: 150px;
+}
